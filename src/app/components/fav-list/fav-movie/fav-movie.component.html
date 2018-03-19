@@ -1,0 +1,12 @@
+
+<div class="card">
+    <img class="card-img-top" src={{baseUrl}}{{movie.poster_path}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{movie.title}}</h5>
+      <div>
+      <p class="card-text overview">{{movie.overview}}</p>
+    </div>
+    <div class="card-footer">
+        <button type="button" (click)="deleteFav(movie1)">Remove</button>
+    </div>
+  </div>

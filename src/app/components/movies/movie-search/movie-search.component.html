@@ -1,0 +1,7 @@
+<div class="fluid-container" style="background-image: url('https://static.rogerebert.com/uploads/review/primary_image/reviews/the-cloverfield-paradox-2018/hero_Cloverfield3.jpg'); height:'100%'">
+  <p class="display-3 text-white" >Find your perfect movie</p>  
+  <form class="form-inline ">
+        <input class="form-control mr-sm-2" [(ngModel)]="searchedMovie" type="text" placeholder="Search" [ngModelOptions]="{standalone: true} " style="width:'500px'">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button" (click)="searchMovie()" >Search</button>
+      </form>
+</div>
